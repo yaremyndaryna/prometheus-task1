@@ -1,0 +1,6 @@
+.scrape_configs[0].job_name;My app
+.scrape_configs[0].metrics_path;/actuator/prometheus
+.scrape_configs[0].scrape_interval;7s
+.scrape_configs[0].static_configs[0].targets;['localhost:8080']
+.scrape_configs[0].basic_auth.username;bob@gmail.com
+.scrape_configs[0].basic_auth.password;passBob
